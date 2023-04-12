@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sect emailField">
+            <input type="text" name="" id="Email" placeholder="example@gmail.com">
+            <span class="error email-error">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <p class="error-text">Please enter a valid email</p>
+            </span>
+        </div>
+        <div class="sect passField">
+            <input type="Password" name="" id="Password" placeholder="write your Password">
+            <span class="error password-error">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <p class="error-text">Please enter atleast 8 character with number, lower and uppercase </p>
+            </span>
+        </div>
+        <div class="sect pass2Field">
+            <div class="confPassword">
+                <input type="Password" class="pass" name="" id="Password2" placeholder="do it again">
+                <button id="showPassword" class="show"><i class="fa-solid fa-eye"></i></button>
+            </div>
+            <span class="error confPass-error">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <p class="error-text">Please enter a valid email</p>
+            </span>
+        </div>
+        <button class="Check">Check!</button>
+        <p id="message"></p>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

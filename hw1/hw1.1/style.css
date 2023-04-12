@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://external-preview.redd.it/gD6BFVjKq8AOcmNO5tZD2Gt4Wn3w91LNcXCMascETAE.png?auto=webp&s=ebfed8f972c2db8570eda9a4e1841010932d6857);
+    /* background-position: center; */
+    background-size: cover;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;  
+
+}
+
+input{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+}
+.fa-solid{
+    font-size: 20px;
+}
+.error{
+    margin-top: 10px;
+    color: red;
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+    display: none;
+}
+.Check{
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 0 15px 0;
+    border-radius: 10px;
+    color: rgb(213, 212, 213);
+    background-color: #4070f4;
+    cursor: pointer;
+}
+.Check:hover{
+    background-color: rgb(213, 212, 213);
+    color: #4070f4;
+}
+.invalid input{
+    border: 3px solid red;
+}
+.invalid .error{
+    display: flex;
+}
+
+.success input{
+    border: 3px solid greenyellow;
+}
