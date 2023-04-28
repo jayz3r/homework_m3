@@ -1,0 +1,84 @@
+{
+  "obj": {
+    "obj1": [
+      {
+        "img": "https://basket-03.wb.ru/vol337/part33792/33792974/images/c246x328/1.jpg",
+        "name": "Witcher 3: Wild Hunt",
+        "price": "1340 с",
+        "description": "Убийца монстров-Ведьмак Геральт отправляется в новое путешествие"
+      }
+    ],
+    "obj2": [
+      {
+        "img": "./img/GOWR.jpg",
+        "name": "GOD OF WAR RAGNAROK",
+        "price": "3340 с",
+        "description": "Пятая часть линейки убийцы богов Кратоса"
+      }
+    ],
+    "obj3": [
+      {
+        "img": "https://upload.wikimedia.org/wikipedia/ru/b/bb/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%BE%D0%B9_%D0%B8%D0%B3%D1%80%D1%8B_Cyberpunk_2077.jpg",
+        "name": "Cyberpunk 2077",
+        "price": "2077 с",
+        "description": "Ви - наемник в Найт-Сити мечтающий стать легендой этого города"
+      }
+    ],
+    "obj4": [
+      {
+        "img": "https://upload.wikimedia.org/wikipedia/en/c/cb/Devil_May_Cry_5.jpg",
+        "name": "Devil May Cry 5",
+        "price": "3299 с",
+        "description": "Начинается конец истории сыновей Спарды..."
+      }
+    ],
+    "ob5": [
+        {
+          "img": "https://image.api.playstation.com/vulcan/ap/rnd/202107/3100/HO8vkO9pfXhwbHi5WHECQJdN.png",
+          "name": "Horizon Forbidden West",
+          "price": "4400 с",
+          "description": "В этой части вы узнаете о прошлом Элой"
+        }
+      ],
+      "obj6": [
+        {
+          "img": "https://upload.wikimedia.org/wikipedia/ru/b/b6/Ghost_of_Tsushima.jpg",
+          "name": "Ghost of Tsushima",
+          "price": "3340 с",
+          "description": "Дзин Сакай должен отречься от пути Самурая ради спасения острова"
+        }
+      ],
+      "obj7": [
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX9Tgf6afLbce2nquuQ8wzNgsxwAqfmage-Q&usqp=CAU",
+          "name": "DOOM ETERNAL",
+          "price": "2666 с",
+          "description": "Мессиво под хардрок"
+        }
+      ],
+      "obj8": [
+        {
+          "img": "https://howlongtobeat.com/games/Uncharted_4_Reveal_Wallpaper.jpg",
+          "name": "Uncharted 4: A Thief's End",
+          "price": "4444 с",
+          "description": "Конец приключений Нейтана Дрейка"
+        }
+      ],
+      "obj9": [
+        {
+          "img": "https://upload.wikimedia.org/wikipedia/ru/6/6c/Batman_Arkham_Knight_Cover_Art.jpg",
+          "name": "Batman: Arkham Knight",
+          "price": "1971 с",
+          "description": "Последняя ночь Тёмного Рыцаря"
+        }
+      ],
+      "obj10": [
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5VBr9kGHblgRtx4qtdGxyytF2l9JOzZ4qF_RTj-kBNlRSzSHKdhLKk8fTKiKG9hV2dkY&usqp=CAU",
+          "name": "Tom Clancy's Ghost Recon Breakpoint",
+          "price": "3340 с",
+          "description": "Вы «Призрак» — элитный боец с особым заданием на архипелаге Ауроа."
+        }
+      ]
+  }
+}
